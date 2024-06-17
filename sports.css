@@ -1,0 +1,272 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("BACKG.jpg");
+    height:100vh;
+    background-size:border-box;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content:space-between;
+    align-items:right;
+
+}
+nav img{
+    width:90px;
+    border-radius: 50%;
+    height: 90px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#f44336;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100% ;
+}
+.text-box{
+    width:90%;
+    color:rgb(246, 238, 238);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+
+}
+.text-box h1{
+    font-size:90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size:14px;
+    color:#fff;
+
+}
+.hero-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:12px 34px;
+    font-size:13px;
+    background:transparent;
+    position:relative;
+    cursor:pointer;
+}
+.hero-btn:hover{
+    border:1px solid #f44336;
+    background:#f44336;
+    transition:1s;
+
+}
+/*-----------------schedule--*/
+.SCHEDULE{
+    width:100%;
+    margin:auto;
+    padding-top:0px;
+}
+
+body{
+    font:1.2em normal Arial,sans-serif;
+    color:#34495E;
+  }
+  
+  h1{
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:-2px;
+    font-size:2.5em;
+    margin:30px 0;
+  }
+  
+  .container{
+    width:100%;
+    margin:auto;
+  }
+  
+  table{
+    border-collapse:collapse;
+    width:100%;
+  }
+  
+  .blue{
+    border:2px solid #34495E;
+  }
+  
+  .blue thead{
+    background:#34495E;
+    text-align: center;
+  }
+  
+  
+  
+  thead{
+    color:white;
+  }
+  
+  th,td{
+    text-align:center;
+    padding:20px 0;
+  }
+  
+  tbody tr:nth-child(EVEN){
+    background:#ECF0F1;
+  }
+  
+  tbody tr:hover{
+  background:#BDC3C7;
+    color:#FFFFFF;
+  }
+  
+  .fixed{
+    top:0;
+    position:fixed;
+    width:auto;
+    display:none;
+    border:none;
+  }
+  
+  .scrollMore{
+    margin-top:600px;
+  }
+  
+  .up{
+    cursor:pointer;
+  }
+
+/*..........players.....*/
+.PLAYERS{
+  width:100%;
+  margin:auto;
+  padding:0px;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("whitebg.jpg");
+  height:100vh;
+  border: #34495E;
+  background-size:border-box;
+  background-size:cover;
+  background-position:center center;
+  position: relative;
+  color: #BDC3C7;
+}
+
+.container-fluid{
+  margin-top: 600;
+}
+
+.carousel-item{
+  width:100%;
+  margin:auto;
+  padding:0px;
+}
+.LEAGUE TABLE{ 
+  margin:0;
+  padding:0%;
+  
+}
+
+.container2{
+  padding:2rem 5%;
+
+
+}
+.container2 .img-gallery{
+  columns:1.5rem 3;
+  
+  column-gap: 1.4rem;
+}
+.img-gallery img{
+  width:100%;
+  cursor:pointer;
+  border-radius:0.7rem;
+  
+
+}
+.img-gallery img:hover{
+  transform:scale(1.3);
+  border-radius:20px;
+  box-shadow:0 20px 7px;
+  z-index:2;
+
+
+}
+.CONTACT {
+  background: #9196bc;
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background: linear-gradient(to right, #2b576a, #bbd8f4);
+  min-height: 100vh;
+}
+
+#button-addon1 {
+  color: #686eb0;
+  
+  transition:1s;
+
+}
+
+i {
+  color: #f4a04b;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: rgb(167, 185, 236);
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+  .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+   .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(248, 191, 141);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+   .social > a:hover {
+    opacity:0.9;
+  }
+  
